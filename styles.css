@@ -8,7 +8,7 @@
   font-size: 62.5%;
   --bg-primary: #ffff;
   --primary-color: #312d64;
-  --secondary-color: #B52184;
+  --secondary-color: #b52184;
   --ff-family: "Mulish", sans-serif;
   --btn-color: #343193;
 }
@@ -30,7 +30,7 @@ body * {
 }
 
 h1 {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .learning {
@@ -61,4 +61,89 @@ h1 {
 .card-head {
   font-size: 3rem;
   margin: 1rem 0rem 1rem;
+}
+
+#section3 {
+  margin-top: 5rem;
+}
+
+#wrap {
+  display: flex;
+}
+
+h1 {
+  margin: 2rem;
+  font-size: 3.8rem;
+  font-weight: bolder;
+}
+
+form {
+  margin: 2rem;
+}
+
+input {
+  border: none;
+}
+
+input,
+button {
+  width: 50rem;
+}
+
+.name-card {
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.email-card {
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.message {
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  width: 60rem;
+  height: 20rem;
+}
+
+button {
+  border: none;
+  background-color: var(--btn-color);
+  border-radius: 8px;
+  margin-top: 3rem;
+  width: 17rem;
+  color: var(--bg-primary);
+  padding: 1.3rem;
+  transition: .1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #2d295a;
+}
+
+#stars {
+  padding-left: 7.7rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  font-size: 1.5rem;
 }
